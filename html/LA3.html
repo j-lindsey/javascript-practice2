@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learning Activity 3</title>
+    <link rel="stylesheet" href="../css/LA3style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Red+Rose:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Learning Activity 3 Part III</h1>
+        </header>
+
+        <section>
+            <div>
+                <h3>1.</h3>
+                <label>Please enter colors: </label>
+                <input type="text" id="color"><br>
+                <button type="submit" onclick="addColor();">Add Color</button>
+                <button type="submit" onclick="removeLast();">Remove Last Element</button>
+                <p id="colorDisplay"></p>
+            </div>
+            <div>
+                <h3>2.</h3>
+                <label>Enter number:</label>
+                <input type="number" id="prime"><br>
+                <button type="button" onclick="isPrime();">Check if Prime</button>
+                <p id="primeDisplay"></p>
+            </div>
+            <div>
+                <h3>3.</h3>
+                <p id="numberArray"></p>
+                <button type="button" onclick="secondLowHigh();">Find Second Lowest/Greatest</button>
+                <p id="lowHighResult"></p>
+            </div>
+            <div>
+                <h3>4.</h3>
+                <label>Enter base number b:</label>
+                <input type="text" id="bNum"><br>
+                <label>Enter exponent <sup>n</sup>:</label>
+                <input type="text" id="nNum"><br>
+                <button type="button" onclick="calculateExponent();">Calculate</button>
+                <p id="exponent"></p>
+            </div>
+            <div>
+                <h3>5.</h3>
+                <label>Enter y/yes or n/no:</label>
+                <input type="text" id="yOrn"><br>
+                <button type="button" onclick="yesOrNo();">True or False</button>
+                <p id="trueOrFalse"></p>
+            </div>
+            <div>
+                <h3>6.</h3>
+                <label>Enter a string of text:</label>
+                <input type="text" id="string"><br>
+                <button type="button" onclick="alphabetical();">Sort Letters</button>
+                <p id="sortLetters"></p>
+            </div>
+            <div>
+                <h3>7.</h3>
+                <label>Enter the numbers you would like to add:</label>
+                <input type="text" id="numbers"><br>
+                <button type="button" onclick="addNumbers();">Add a Number</button>
+                <button type="button" onclick="calculateSum();">Calculate Sum</button>
+                <p id="sum"></p>
+            </div>
+            <div>
+                <h3>8.</h3>
+                <p id="integerarray"></p>
+                <button type="button" onclick="findtheOne();">Find Lonely Integer</button>
+
+                <p id="intResult"></p>
+            </div>
+            <div>
+                <h3>9.</h3>
+                <p id="newIntArr"></p>
+                <button type="button" onclick="findMax();">Find Max</button>
+
+                <p id="newIntResult"></p>
+            </div>
+            <div>
+                <h3>10.</h3>
+                <label>Enter a number:</label>
+                <input type="text" id="odd_even"><br>
+                <button type="button" onclick="oddOrEven();">Odd or Even</button>
+                <p id="oddEvenResult"></p>
+            </div>
+        </section>
+
+        <script src="../js/LA3script.js"></script>
+    </main>
+</body>
+
+</html>

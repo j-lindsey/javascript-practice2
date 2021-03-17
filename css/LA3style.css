@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("../img/yellow-background-2894957.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    
+}
+main{
+    width: 45%;
+    background-color:#F7FFF7;
+    margin: 20px auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+section{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background-color: rgb(255, 107, 107);
+    padding: 30px 50px;
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+h1{
+    margin: 0;
+}
+div{
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 14px 24px 55px 0px rgba(0,0,0,0.6); 
+}
+div:nth-child(odd){
+    background-color: rgb(26, 83, 92);
+    color: #F7FFF7;
+    margin: auto;  
+    
+}
+div:nth-child(even){
+    background-color: rgb(78, 205, 196);
+    
+}
+h3{
+    margin: 0;
+    padding: 2%;
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+p{
+    margin: 0;
+}
+button{
+    margin: 2%;
+    padding: 0.5%;
+    background-color: #FFE66D;
+}
+input{
+   background-color: #F7FFF7;
+}
